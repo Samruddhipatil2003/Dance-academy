@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nrutya Dance Academy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header id="home">
+    <div class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Nrutya Dance Academy</h1>
+        <p>Dancing is dreaming your life with your feet</p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#dance-forms">Dance Forms</a></li>
+        <li><a href="#choreographers">Choreographers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="dance-forms">
+      <h2>Dance Forms</h2>
+      <div class="dance-form-container">
+        <div class="dance-form">
+          <img src="images/bharatnatyam.jpg" alt="Bharatanatyam"  />
+          <h3>Bharatanatyam</h3>
+          <p>Grace and devotion from Tamil Nadu’s temples.</p>
+        </div>
+        <div class="dance-form">
+          <img src="images/kathak.jpg" alt="Kathak" />
+          <h3>Kathak</h3>
+          <p>Expressive storytelling and rhythm from North India.</p>
+        </div>
+        <div class="dance-form">
+          <img src="images/hiphop.jpg" alt="Hip Hop" />
+          <h3>Hip Hop</h3>
+          <p>Energetic street style with freestyle expression.</p>
+        </div>
+        <div class="dance-form">
+          <img src="images/salsa.jpg" alt="Salsa" />
+          <h3>Salsa</h3>
+          <p>Passionate and rhythmic Latin dance form.</p>
+        </div>
+        <div class="dance-form">
+          <img src="images/ballet.jpg" alt="Ballet" />
+          <h3>Ballet</h3>
+          <p>Classical Western dance emphasizing grace and technique.</p>
+        </div>
+        <div class="dance-form">
+          <img src="images/contemporary.jpg" alt="Contemporary" />
+          <h3>Contemporary</h3>
+          <p>Modern, expressive dance blending styles and emotion.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="choreographers">
+      <h2>Our Choreographers</h2>
+      <div class="choreo-container">
+        <div class="choreo">
+          <img src="images/choreo1.jpeg" alt="Choreographer 1" />
+          <h3>Shakti Mohan</h3>
+          <p>Bharatanatyam & classical dance guru with 20+ years of teaching experience.</p>
+        </div>
+        <div class="choreo">
+          <img src="images/choreo2.jpeg" alt="Choreographer 2" />
+          <h3>Pratik</h3>
+          <p>Kathak maestro known for rhythmic storytelling and technique.</p>
+        </div>
+        <div class="choreo">
+          <img src="images/choreo3.jpeg" alt="Choreographer 4" />
+          <h3>Remo & Raghav</h3>
+          <p>Contemporary & Hip Hop fusion specialist choreographer.</p>
+        </div>
+        <div class="choreo">
+          <img src="images/choreo4.jpeg" alt="Choreographer 5" />
+          <h3>Vaibhavi</h3>
+          <p>Salsa & Latin dance master instructor.</p>
+        </div>
+        <div class="choreo">
+          <img src="images/choreo5.jpeg" alt="Choreographer 6" />
+          <h3>Sonali Majumdar</h3>
+          <p>Ballet expert and classical ballet choreographer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-container">
+        <div class="gallery-item"><img src="images/gallery1.jpeg" alt="Gallery 1"></div>
+        <div class="gallery-item"><img src="images/gallery2.jpeg" alt="Gallery 2"></div>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <h2>Class Schedule</h2>
+      <div class="schedule-container">
+        <div class="schedule-day"><h3>Monday</h3><p>Bharatanatyam — 5:00 PM – 6:30 PM</p></div>
+        <div class="schedule-day"><h3>Wednesday</h3><p>Kathak — 6:00 PM – 7:30 PM</p></div>
+        <div class="schedule-day"><h3>Friday</h3><p>Contemporary — 5:30 PM – 7:00 PM</p></div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div id="form-response"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nrutya Dance Academy | Embracing Dance Heritage</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
